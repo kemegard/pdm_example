@@ -105,7 +105,7 @@ int main(void)
 	uint32_t size;
 	int      block_idx = 0;
 
-	LOG_INF("PDM example – nRF54L15 DK");
+	LOG_INF("PDM example - nRF54L15 DK");
 	LOG_INF("Peripheral : pdm20");
 	LOG_INF("CLK pin    : P1.12 (clock pin)");
 	LOG_INF("DIN pin    : P1.11  (wire to P1.12 for loopback)");
@@ -135,7 +135,7 @@ int main(void)
 		return ret;
 	}
 
-	LOG_INF("PDM started – reading continuously");
+	LOG_INF("PDM started - reading continuously");
 
 	while (true) {
 		/* Generous timeout: 5× block period to tolerate startup jitter */
